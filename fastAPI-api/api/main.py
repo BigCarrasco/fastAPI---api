@@ -10,7 +10,7 @@ app.include_router(usuarios.router)
 def root():
     return {"mensaje": "API funcionando"}
 
-#  Correr: uvicorn app.main:app --reload 
+#  Correr: uvicorn api.main:app --reload 
 
 # uv venv 
 # uv pip install 
